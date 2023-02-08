@@ -1,7 +1,7 @@
 # ovpn-script-for-openvpn
 #This simple bash script used to APPEND ca.crt, client.crt and client.key content into client.ovpn file.
 
-#APPEND ca.crt, client.crt and client.key contents into client.conf file and generate modified .ovpn file. Give these attributes in the command while running this script. Keep the format same as described:
+#APPEND ca.crt, client.crt and client.key contents into client.conf file and generate modified .ovpn file. Give these attributes in the command while running this script. Keep the format and sequence same as described:
 
         bash scr.sh <.ovpn-give-file-name> <ca.crt> <client.crt> <client.key>
 
