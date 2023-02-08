@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat client-master.ovpn > $1.ovpn
+cat client.conf > $1.ovpn
 file=$1.ovpn
 echo "<ca>" >> $file;
 cat $2 >> $file;
